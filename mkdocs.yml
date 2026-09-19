@@ -1,0 +1,31 @@
+site_name: Strategy Data Management
+site_description: Strategy JSON and Database Management Documentation
+site_author: Blitz Team
+
+theme:
+  name: material
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Strategy Data Management:
+      - Introduction: strategy-data-management/index.md
+      - Database to JSON: strategy-data-management/database-to-json.md
+      - JSON to Strategies: strategy-data-management/json-to-strategies.md
+      - JSON to Signal Strategies: strategy-data-management/json-to-signal-strategies.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - tables
+
+extra_css:
+  - stylesheets/extra.css
